@@ -1,0 +1,12 @@
+name: Sell Commands
+on: [push]
+jobs:
+  run-Sell-Command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo"Hello world"
+      - name: multiline 
+        run: |
+          node -v
+          npm -v
